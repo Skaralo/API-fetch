@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background: #222;
+  background-image: url("https://source.unsplash.com/1600x900/?flight");
+  font-size: 120%;
+}
+
+img {
+  width: 99px;
+}
+
+#form {
+}
+
+#field,
+#field2,
+#field3 {
+  padding: 6px;
+  border-radius: 3%;
+  border: 1px solid rgb(184, 178, 178);
+  padding: 6px;
+}
+
+.submitSearch {
+  border-radius: 9%;
+  background-color: rgb(66, 59, 59);
+  color: white;
+  border: 1px solid rgb(65, 58, 58);
+  padding: 9px;
+  margin-left: 15px;
+}
+
+small {
+  color: red;
+  background-color: rgb(236, 238, 232);
+  width: 600px;
+}
+
+#bookFlight {
+  display: none;
+}

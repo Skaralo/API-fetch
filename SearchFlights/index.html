@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Flight Explorer</title>
+</head>
+
+<body>
+    <div class="section">
+      <img class="logo" src="https://static.thenounproject.com/png/3782905-200.png" alt="" />
+    </div>
+      <form id="form">
+        <p class="title-action">Depart from</p>
+        <input value="" id="field" type="text" placeholder="" autocomplete="off" />
+
+        <p class="title-action">Destination</p>
+        <input id="field2" type="text" placeholder="" autocomplete="off" />
+
+        <p>Travel class</p>
+        <input id="field3" type="text" placeholder="" autocomplete="off" />  
+
+        <!-- <p>Date</p>
+        <input id="field4" type="text" placeholder="" autocomplete="off" />   -->
+            <!-- <input id="field3"
+              id="start"
+              type="date"
+              name="trip-start"
+              value="2022-09-22"
+              min="2022-01-01"
+              max="2023-12-31"
+            />     -->
+        <small id="errorMessage2"></small>
+        <button class="submitSearch" type="submit">Find flights</button>
+      </form>
+    </div>
+
+  <div id="results">
+    
+  </div>
+
+  <div id="bookFlight">
+        <form id="bookFlightForm">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <label for="e-mail">E-mail:</label><br>
+            <input type="text" id="e-mail" name="e-mail" value="John@mail.com"><br>
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address" value=""><br><br>         
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+  <div id="final-results"></div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
